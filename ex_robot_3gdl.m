@@ -30,7 +30,7 @@ R(:,:,1)= [cos(th) -sin(th)  0;
 
 %Articulación 2 
 %Posición de la articulación 2 respecto a 1
-P(:,:,2)= [0; l2; 0];
+P(:,:,2)= [0; 0; l2];
 %Matriz de rotación de la junta 2 respecto a 1.... -90ºy
 R(:,:,2)= [1 0 0; %x -90
            0 0 1;
@@ -38,7 +38,7 @@ R(:,:,2)= [1 0 0; %x -90
 
 %Articulación 3 
 %Posición de la articulación 3 respecto a 2
-P(:,:,3)= [0; 0; l3];
+P(:,:,3)= [0; l3; 0];
 %Matriz de rotación de la junta 3 respecto a 2 0°
 R(:,:,3)= [1 0 0;
            0 1 0;
