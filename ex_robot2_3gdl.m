@@ -5,6 +5,9 @@ clc
 
 %Declaración de variables simbólicas
 syms th1(t) th2(t) th3(t) t a1 a2 l1
+%th ángulos de rotación
+%a longitud de los estabones
+%l1 longitud de traslación (posición)
 
 %Configuración del robot, 0 para junta rotacional, 1 para junta prismática
 RP=[0 0 0];
